@@ -10,6 +10,9 @@
   "unreadCommentThreads": 0,
   "color": "#ECECEC",
   "icon": "calender",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "evaluationVersion": 2,
   "applicationVersion": 2,
   "isManualUpdate": false,
