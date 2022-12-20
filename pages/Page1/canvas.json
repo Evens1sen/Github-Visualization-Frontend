@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 740,
+          "bottomRow": 1290,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -33,8 +33,8 @@
               "isCanvas": true,
               "displayName": "Stats Box",
               "iconSVG": "/static/media/icon.382a7c7bc55323fbbd8edd79208c5324.svg",
-              "topRow": 12,
-              "bottomRow": 26,
+              "topRow": 5,
+              "bottomRow": 19,
               "parentRowSpace": 10,
               "type": "STATBOX_WIDGET",
               "hideCard": false,
@@ -42,7 +42,7 @@
               "animateLoading": true,
               "parentColumnSpace": 13.6875,
               "dynamicTriggerPathList": [],
-              "leftColumn": 41,
+              "leftColumn": 40,
               "dynamicBindingPathList": [],
               "children": [
                 {
@@ -184,28 +184,28 @@
               "key": "5rt44hddjf",
               "backgroundColor": "white",
               "isDeprecated": false,
-              "rightColumn": 52,
+              "rightColumn": 51,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "8i7pbaldc7",
               "isVisible": true,
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 12,
+              "originalTopRow": 5,
               "borderRadius": "1.5rem",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 26,
+              "originalBottomRow": 19,
               "minDynamicHeight": 14
             },
             {
-              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
               "widgetName": "Statbox1",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
               "displayName": "Stats Box",
               "iconSVG": "/static/media/icon.382a7c7bc55323fbbd8edd79208c5324.svg",
-              "topRow": 12,
-              "bottomRow": 26,
+              "topRow": 5,
+              "bottomRow": 19,
               "parentRowSpace": 10,
               "type": "STATBOX_WIDGET",
               "hideCard": false,
@@ -213,12 +213,8 @@
               "animateLoading": true,
               "parentColumnSpace": 13.6875,
               "dynamicTriggerPathList": [],
-              "leftColumn": 3,
-              "dynamicBindingPathList": [
-                {
-                  "key": "boxShadow"
-                }
-              ],
+              "leftColumn": 9,
+              "dynamicBindingPathList": [],
               "children": [
                 {
                   "widgetName": "Canvas1",
@@ -265,7 +261,7 @@
                       "text": "Number of developers",
                       "key": "tecuqzb2bc",
                       "isDeprecated": false,
-                      "rightColumn": 45,
+                      "rightColumn": 57,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "dw0cussi64",
@@ -356,23 +352,23 @@
               "key": "5rt44hddjf",
               "backgroundColor": "white",
               "isDeprecated": false,
-              "rightColumn": 16,
+              "rightColumn": 20,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "3erx6i68w8",
               "isVisible": true,
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 12,
+              "originalTopRow": 5,
               "borderRadius": "1.5rem",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 26,
+              "originalBottomRow": 19,
               "minDynamicHeight": 14
             },
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "widgetName": "Chart1",
-              "allowScroll": false,
+              "allowScroll": true,
               "displayName": "Chart",
               "iconSVG": "/static/media/icon.6adbe31ed817fc4bfd66f9f0a6fc105c.svg",
               "searchTags": [
@@ -380,14 +376,14 @@
                 "visuals",
                 "visualisations"
               ],
-              "topRow": 28,
-              "bottomRow": 66,
+              "topRow": 20,
+              "bottomRow": 47,
               "parentRowSpace": 10,
               "type": "CHART_WIDGET",
               "hideCard": false,
               "chartData": {
                 "ctpfegg9xu": {
-                  "seriesName": "Top developers",
+                  "seriesName": "Commit",
                   "data": "{{topKActive.data}}"
                 }
               },
@@ -395,11 +391,8 @@
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 13.6875,
               "dynamicTriggerPathList": [],
-              "leftColumn": 0,
+              "leftColumn": 9,
               "dynamicBindingPathList": [
-                {
-                  "key": "borderRadius"
-                },
                 {
                   "key": "boxShadow"
                 },
@@ -462,7 +455,7 @@
               },
               "key": "0n2e9899f5",
               "isDeprecated": false,
-              "rightColumn": 21,
+              "rightColumn": 33,
               "widgetId": "seg2vjh4ip",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisible": true,
@@ -472,12 +465,12 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "yAxisName": "# of Commit",
-              "originalTopRow": 28,
+              "originalTopRow": 19,
               "chartName": "Top developers",
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "borderRadius": "1.5rem",
               "xAxisName": "Author",
-              "originalBottomRow": 66,
-              "chartType": "COLUMN_CHART"
+              "originalBottomRow": 45,
+              "chartType": "BAR_CHART"
             },
             {
               "boxShadow": "none",
@@ -737,8 +730,8 @@
               "isCanvas": true,
               "displayName": "Stats Box",
               "iconSVG": "/static/media/icon.382a7c7bc55323fbbd8edd79208c5324.svg",
-              "topRow": 12,
-              "bottomRow": 27,
+              "topRow": 5,
+              "bottomRow": 19,
               "parentRowSpace": 10,
               "type": "STATBOX_WIDGET",
               "hideCard": false,
@@ -753,12 +746,12 @@
                   "widgetName": "Canvas3",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 150,
+                  "bottomRow": 140,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
                   "hideCard": true,
-                  "minHeight": 150,
+                  "minHeight": 140,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "dynamicBindingPathList": [],
@@ -772,15 +765,15 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 5,
-                      "bottomRow": 9,
+                      "topRow": 4,
+                      "bottomRow": 8,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
                       "overflow": "NONE",
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 31,
+                      "leftColumn": 32,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -800,7 +793,7 @@
                       "text": "{{closedCount.data}}",
                       "key": "tecuqzb2bc",
                       "isDeprecated": false,
-                      "rightColumn": 56,
+                      "rightColumn": 54,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "nu4klqjvfx",
@@ -825,8 +818,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 9,
-                      "bottomRow": 13,
+                      "topRow": 8,
+                      "bottomRow": 12,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -850,7 +843,7 @@
                       "text": "Closed",
                       "key": "tecuqzb2bc",
                       "isDeprecated": false,
-                      "rightColumn": 64,
+                      "rightColumn": 55,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "6p05vsh56t",
@@ -877,8 +870,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 1,
-                      "bottomRow": 5,
+                      "topRow": 0,
+                      "bottomRow": 4,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -927,8 +920,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 5,
-                      "bottomRow": 9,
+                      "topRow": 4,
+                      "bottomRow": 8,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -980,8 +973,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 9,
-                      "bottomRow": 13,
+                      "topRow": 8,
+                      "bottomRow": 12,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -1048,10 +1041,10 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 13,
+              "originalTopRow": 12,
               "borderRadius": "1.5rem",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 28,
+              "originalBottomRow": 26,
               "minDynamicHeight": 14
             },
             {
@@ -1061,19 +1054,17 @@
               "isCanvas": true,
               "displayName": "Stats Box",
               "iconSVG": "/static/media/icon.382a7c7bc55323fbbd8edd79208c5324.svg",
-              "topRow": 33,
-              "bottomRow": 56,
+              "topRow": 21,
+              "bottomRow": 47,
               "parentRowSpace": 10,
               "type": "STATBOX_WIDGET",
               "hideCard": false,
               "shouldScrollContents": true,
               "animateLoading": true,
               "parentColumnSpace": 13.6875,
-              "leftColumn": 21,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 33,
               "dynamicBindingPathList": [
-                {
-                  "key": "borderRadius"
-                },
                 {
                   "key": "boxShadow"
                 }
@@ -1083,12 +1074,12 @@
                   "widgetName": "Canvas4",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 230,
+                  "bottomRow": 260,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
                   "hideCard": true,
-                  "minHeight": 230,
+                  "minHeight": 260,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "dynamicBindingPathList": [],
@@ -1103,7 +1094,7 @@
                         "label"
                       ],
                       "topRow": 12,
-                      "bottomRow": 16,
+                      "bottomRow": 19,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -1127,7 +1118,7 @@
                       "text": "2.6",
                       "key": "tecuqzb2bc",
                       "isDeprecated": false,
-                      "rightColumn": 57,
+                      "rightColumn": 23,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "iqwhz76g0o",
@@ -1141,7 +1132,7 @@
                       "originalTopRow": 12,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 16,
+                      "originalBottomRow": 19,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     },
@@ -1154,8 +1145,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 17,
-                      "bottomRow": 21,
+                      "topRow": 20,
+                      "bottomRow": 24,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -1190,10 +1181,10 @@
                       "parentId": "frlpuiqg7q",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 17,
+                      "originalTopRow": 20,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 21,
+                      "originalBottomRow": 24,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     },
@@ -1456,46 +1447,6 @@
                       "originalBottomRow": 8,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
-                    },
-                    {
-                      "boxShadow": "none",
-                      "widgetName": "IconButton3",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "displayName": "Icon Button",
-                      "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
-                      "searchTags": [
-                        "click",
-                        "submit"
-                      ],
-                      "topRow": 2,
-                      "bottomRow": 10,
-                      "type": "ICON_BUTTON_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 46,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "isDisabled": false,
-                      "key": "ui0mn6aqic",
-                      "isDeprecated": false,
-                      "rightColumn": 62,
-                      "iconName": "bookmark",
-                      "widgetId": "gpyf1jpq8w",
-                      "buttonStyle": "PRIMARY",
-                      "isVisible": true,
-                      "version": 1,
-                      "parentId": "frlpuiqg7q",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "buttonVariant": "PRIMARY"
                     }
                   ],
                   "key": "g8filky8hy",
@@ -1515,17 +1466,17 @@
               "key": "5rt44hddjf",
               "backgroundColor": "white",
               "isDeprecated": false,
-              "rightColumn": 40,
+              "rightColumn": 51,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "niw2xvytd5",
               "isVisible": true,
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 33,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "originalTopRow": 21,
+              "borderRadius": "1.5rem",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 56,
+              "originalBottomRow": 47,
               "minDynamicHeight": 14
             },
             {
@@ -1539,8 +1490,8 @@
                 "visuals",
                 "visualisations"
               ],
-              "topRow": 33,
-              "bottomRow": 65,
+              "topRow": 48,
+              "bottomRow": 74,
               "parentRowSpace": 10,
               "type": "CHART_WIDGET",
               "hideCard": false,
@@ -1554,11 +1505,8 @@
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 13.953125,
               "dynamicTriggerPathList": [],
-              "leftColumn": 41,
+              "leftColumn": 28,
               "dynamicBindingPathList": [
-                {
-                  "key": "borderRadius"
-                },
                 {
                   "key": "boxShadow"
                 },
@@ -1621,7 +1569,7 @@
               },
               "key": "0n2e9899f5",
               "isDeprecated": false,
-              "rightColumn": 64,
+              "rightColumn": 51,
               "widgetId": "zp847t9erb",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisible": true,
@@ -1631,11 +1579,11 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "yAxisName": "Commit",
-              "originalTopRow": 33,
+              "originalTopRow": 49,
               "chartName": "Commit Distribution",
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "borderRadius": "1.5rem",
               "xAxisName": "Daytime",
-              "originalBottomRow": 65,
+              "originalBottomRow": 81,
               "chartType": "PIE_CHART"
             },
             {
@@ -1898,8 +1846,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 6,
-              "bottomRow": 11,
+              "topRow": 0,
+              "bottomRow": 5,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -1943,6 +1891,113 @@
               "originalBottomRow": 11,
               "fontSize": "1.875rem",
               "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "widgetName": "Chart3",
+              "allowScroll": false,
+              "displayName": "Chart",
+              "iconSVG": "/static/media/icon.6adbe31ed817fc4bfd66f9f0a6fc105c.svg",
+              "searchTags": [
+                "graph",
+                "visuals",
+                "visualisations"
+              ],
+              "topRow": 48,
+              "bottomRow": 74,
+              "parentRowSpace": 10,
+              "type": "CHART_WIDGET",
+              "hideCard": false,
+              "chartData": {
+                "ctpfegg9xu": {
+                  "seriesName": "Sales",
+                  "data": "{{releasesInterval.data}}"
+                }
+              },
+              "animateLoading": true,
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 13.953125,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 9,
+              "dynamicBindingPathList": [
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "fontFamily"
+                },
+                {
+                  "key": "chartData.ctpfegg9xu.data"
+                }
+              ],
+              "customFusionChartConfig": {
+                "type": "column2d",
+                "dataSource": {
+                  "data": [
+                    {
+                      "label": "Product1",
+                      "value": 20000
+                    },
+                    {
+                      "label": "Product2",
+                      "value": 22000
+                    },
+                    {
+                      "label": "Product3",
+                      "value": 32000
+                    }
+                  ],
+                  "chart": {
+                    "caption": "Sales Report",
+                    "xAxisName": "Product Line",
+                    "yAxisName": "Revenue($)",
+                    "theme": "fusion",
+                    "alignCaptionWithCanvas": 1,
+                    "captionFontSize": "24",
+                    "captionAlignment": "center",
+                    "captionPadding": "20",
+                    "captionFontColor": "#231F20",
+                    "legendIconSides": "4",
+                    "legendIconBgAlpha": "100",
+                    "legendIconAlpha": "100",
+                    "legendPosition": "top",
+                    "canvasPadding": "0",
+                    "chartLeftMargin": "20",
+                    "chartTopMargin": "10",
+                    "chartRightMargin": "40",
+                    "chartBottomMargin": "10",
+                    "xAxisNameFontSize": "14",
+                    "labelFontSize": "12",
+                    "labelFontColor": "#716e6e",
+                    "xAxisNameFontColor": "#716e6e",
+                    "yAxisNameFontSize": "14",
+                    "yAxisValueFontSize": "12",
+                    "yAxisValueFontColor": "#716e6e",
+                    "yAxisNameFontColor": "#716e6e"
+                  }
+                }
+              },
+              "key": "0n2e9899f5",
+              "isDeprecated": false,
+              "rightColumn": 27,
+              "widgetId": "88xk15ueve",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "labelOrientation": "auto",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "yAxisName": "# of Commit",
+              "originalTopRow": 45,
+              "chartName": "Release Interval",
+              "borderRadius": "1.5rem",
+              "xAxisName": "Release",
+              "originalBottomRow": 71,
+              "chartType": "COLUMN_CHART"
             }
           ]
         },
@@ -1983,6 +2038,14 @@
             {
               "id": "Page1_releasesCount",
               "name": "releasesCount",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Page1_releasesInterval",
+              "name": "releasesInterval",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
