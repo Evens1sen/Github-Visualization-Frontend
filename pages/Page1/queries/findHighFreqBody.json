@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "varTime",
+    "name": "findHighFreqBody",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -20,7 +20,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/issue/varTime",
+      "path": "/issue/findHighFreqBody",
       "headers": [],
       "encodeParamsToggle": true,
       "queryParameters": [],
@@ -47,7 +47,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_varTime",
+  "id": "Page1_findHighFreqBody",
   "deleted": false,
-  "gitSyncId": "63a12fd2465a9d17623566ff_63a1b071749a014ec6e5848e"
+  "gitSyncId": "63a12fd2465a9d17623566ff_63a1c1a77b3ff97723befe9d"
 }
